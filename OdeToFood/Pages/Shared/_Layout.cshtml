@@ -1,0 +1,151 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using OdeToFood.Core
+@inject SignInManager<OwnUser> signInManager;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - My resto</title>
+
+    <environment include="Development">
+       <link href="~/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+        <link href="~/node_modules/@@fortawesome/fontawesome-free/css/all.css" rel="stylesheet" />
+       @* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">      
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> *@
+        
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lumen/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" 
+              href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+              asp-fallback-href="~/node_modules/@@fortawesome/fontawesome-free/css/all.css"
+              asp-fallback-test-class="fa" 
+              asp-fallback-test-property="font-family" 
+              asp-fallback-test-value="FontAwesome" />    
+ 
+ 
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+</head>
+<body style="background-color: honeydew">
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-primary border-bottom box-shadow mb-3">
+        <div class="container">
+            <a class="navbar-brand" asp-area="" asp-page="/Index"><b>My Resto</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                                                                                                                        <ul class="navbar-nav flex-grow-1">
+                
+                                     @if (signInManager.IsSignedIn(User))
+                                                                                                    {
+                                                                                                        <li class="nav-item">
+                                                                                                            <form method="post" asp-action="logout" asp-controller="account">
+                                                                                                                <button type="submit" class="nav-link btn btn-link text-dark"
+                                                                                                                        >
+                                                                                                                    <b style="color: gainsboro">Logout @User.Identity.Name</b>
+                                                                                                                </button>
+                                                                                                            </form>
+                                                                                                        </li>
+                                                                                                    }
+                                                                                                    else
+                                                                                                    {
+                                                                                                        <li class="nav-item">
+                                                                                                            <a  asp-action="register" asp-controller="account" class="nav-link text-dark"><b>Register</b></a>
+                                                                                                        </li>
+                                                                                                        <li class="nav-item">
+                                                                                                            <a asp-action="login" asp-controller="account"class="nav-link text-dark"><b>Login</b></a>
+                                                                                                        </li>
+                                                                                               
+                                                                                                    }
+                                                                                                                             </ul>
+
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/Index"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/Restaurants/List"><b>Restaurants</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/Restaurants/ClientRestaurants"><b>Api Restaurants</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/About"><b>About</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/Contact"><b>Contact</b></a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        @RenderSection("footer", required: false)
+        <vc:restaurant-count></vc:restaurant-count>
+        &copy; 2019 - My Resto  - Adnane Benkouider<a asp-area="" asp-page="/Privacy">Privacy</a>
+        <img src="/myresto.png" width="100">
+    </div>
+</footer>
+
+<environment include="Development">
+    <script src="~/node_modules/jquery/dist/jquery.js"></script>
+    <script src="~/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</environment>
+<environment exclude="Development">
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"
+            asp-fallback-src="~/node_modules/jquery/dist/jquery.js"
+            asp-fallback-test="window.jQuery">
+        </script>
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/bootstrap.min.js"
+            asp-fallback-src="~/node_modules/bootstrap/dist/js/bootstrap.js"
+            asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal">         
+        </script>
+       
+    @*
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js" ></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        *@
+       
+    <script src="~/js/site.min.js" asp-append-version="true"></script>
+</environment>
+<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+@RenderSection("Scripts", required: false)
+
+
+</body>
+<style>
+    .nav-item a b{
+    color :gainsboro;
+    }
+    .navbar-brand b{
+    color: gold;
+    }
+    .form-control{
+    background-color: aliceblue;
+    }
+</style>
+</html>

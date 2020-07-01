@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8aa573d7-6731-479d-a9e9-872329d1038a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Account/ForgotPassword.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Account/ChangePasswordConfirmation.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Account/ResetPassword.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/_Summary.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/NotFound.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Detail.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/ClientRestaurants.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Edit.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/ClientRestaurants.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Delete.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Detail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Administration/EditRole.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Administration/ListRoles.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Administration/EditUser.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Administration/ManageUserClaims.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Identity/Models/OwnUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Administration/ListUsers.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Administration/EditUsersInRole.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Identity/Models/ClaimsStore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Administration/CreateRole.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Administration/ManageUserRoles.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Identity/ViewModels/RegisterViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/Account/ForgotPasswordConfirmation.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/Account/Error.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Identity/ViewModels/LoginViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/Account/AddPasswordConfirmation.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/Account/ChangePassword.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/Account/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Identity/Controllers/AdministrationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/Account/AccountLocked.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/Account/ResetPassword.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Views/Account/AddPassword.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/WebHostExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/ViewComponents/RestaurantCountViewComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Identity/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/List.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood.Core/Rate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood.Core/CuisineType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood.Data/OdeToFoodDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood.Core/Restaurant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood.Core/MenuLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Contact.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Error.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/About.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Contact.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/About.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood.Data/DataRestaurant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/R2/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/R2/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood.Data/DataMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood.Data/IData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/R2/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/R2/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/R2/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Users/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Users/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Shared/NotFound.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Shared/Components/RestaurantCount/Default.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Account/AddPassword.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Account/AccountLocked.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Account/ChangePassword.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Account/ForgotPasswordConfirmation.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Account/ConfirmEmail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OdeToFood/Pages/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Administration/CreateRole.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Administration/EditRole.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Administration/EditUser.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Administration/EditUsersInRole.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Administration/ListRoles.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Administration/ManageUserClaims.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Administration/ManageUserRoles.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Shared/NotFound.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Account/NotFound2.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Account/NotFound.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Administration/NotFound2.cshtml" />
+        <option value="$PROJECT_DIR$/Identity/AdministrationController.cs" />
+        <option value="$PROJECT_DIR$/Identity/AccountController.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Account/Login.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/Identity/Views/Account/Login.cshtml" />
+        <option value="$PROJECT_DIR$/Identity/Views/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Views/_ViewStart.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Views/Account/Login.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Views/Account/Error.cshtml.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Views/Account/Error.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood.Core/User.cs" />
+        <option value="$PROJECT_DIR$/Identity/Controllers/AdministrationController.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Administration/ListUsers.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Views/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Index.cshtml.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Contact.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood.Core/Rate.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood.Data/DataRestaurant.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood.Core/Restaurant.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Program.cs" />
+        <option value="$PROJECT_DIR$/Identity/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/_Summary.cshtml" />
+        <option value="$PROJECT_DIR$/Identity/ViewModels/RegisterViewModel.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Detail.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood.Data/OdeToFoodDbContext.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Users.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Identity/Models/ClaimsStore.cs" />
+        <option value="$PROJECT_DIR$/Identity/Models/User.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood.Data/DataUser.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Users/Index.cshtml.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Startup.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/List.cshtml.cs" />
+        <option value="$PROJECT_DIR$/Identity/Models/OwnUser.cs" />
+        <option value="$PROJECT_DIR$/OdeToFood/Pages/Shared/Components/RestaurantCount/Default.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UZ3utgQtnfVqsDJIC1GsfeBMc2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Unnamed" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/a9222cab-7c3e-4959-927b-86b7671f6354/resourceGroups/rg-191209193054/providers/Microsoft.Web/sites/bestresto" />
+      <option name="AZURE_WEB_APP_NAME" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/a9222cab-7c3e-4959-927b-86b7671f6354/resourceGroups/rg-191209193054/providers/Microsoft.Web/serverfarms/appsp-191209193054" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.1" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="N/A" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/OdeToFood/bin/Debug/netcoreapp3.1/OdeToFood.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OdeToFood" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/OdeToFood/OdeToFood.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue="Azure - Publish Web App.Unnamed" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8aa573d7-6731-479d-a9e9-872329d1038a" name="Default Changelist" comment="" />
+      <created>1575550530576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575550530576</updated>
+      <workItem from="1575550546211" duration="3365000" />
+      <workItem from="1575554919967" duration="15268000" />
+      <workItem from="1575631525170" duration="27034000" />
+      <workItem from="1575713593433" duration="38641000" />
+      <workItem from="1575815724083" duration="15121000" />
+      <workItem from="1575846131957" duration="1348000" />
+      <workItem from="1575901628888" duration="2230000" />
+      <workItem from="1575904421888" duration="228000" />
+      <workItem from="1575919179607" duration="1482000" />
+      <workItem from="1576792613594" duration="2044000" />
+      <workItem from="1576794783558" duration="350000" />
+      <workItem from="1576795142546" duration="115000" />
+      <workItem from="1576795673021" duration="1719000" />
+      <workItem from="1576798025329" duration="735000" />
+      <workItem from="1576799028174" duration="267000" />
+      <workItem from="1576799306279" duration="1692000" />
+      <workItem from="1577650931791" duration="59000" />
+      <workItem from="1577712971639" duration="1866000" />
+      <workItem from="1577714868741" duration="91000" />
+      <workItem from="1577715038594" duration="2405000" />
+      <workItem from="1577717452936" duration="3503000" />
+      <workItem from="1577720967711" duration="1511000" />
+      <workItem from="1577722483854" duration="3873000" />
+      <workItem from="1577728753415" duration="568000" />
+      <workItem from="1577729632061" duration="93000" />
+      <workItem from="1577729730309" duration="14263000" />
+      <workItem from="1577801930909" duration="11992000" />
+      <workItem from="1577831977140" duration="61000" />
+      <workItem from="1577832043513" duration="76000" />
+      <workItem from="1577832122960" duration="387000" />
+      <workItem from="1577832513271" duration="62000" />
+      <workItem from="1577832578717" duration="342000" />
+      <workItem from="1577832923940" duration="5017000" />
+      <workItem from="1577837947061" duration="768000" />
+      <workItem from="1577876281003" duration="14532000" />
+      <workItem from="1577915107936" duration="245000" />
+      <workItem from="1578052095995" duration="4352000" />
+      <workItem from="1578056651423" duration="385000" />
+      <workItem from="1578057328833" duration="1778000" />
+      <workItem from="1578072696644" duration="825000" />
+      <workItem from="1578653624755" duration="929000" />
+      <workItem from="1583449460772" duration="903000" />
+      <workItem from="1583450494968" duration="2571000" />
+      <workItem from="1583494209384" duration="1185000" />
+      <workItem from="1583767841935" duration="561000" />
+      <workItem from="1583852444696" duration="1314000" />
+      <workItem from="1583854688462" duration="1348000" />
+      <workItem from="1583917844336" duration="943000" />
+      <workItem from="1584277208658" duration="769000" />
+      <workItem from="1584387779060" duration="216000" />
+      <workItem from="1584388360430" duration="565000" />
+      <workItem from="1584393442396" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="94" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583917874627">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="94" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1583917874627" />
+    <state width="482" height="466" key="DebuggerActiveHint" timestamp="1577888371023">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="482" height="466" key="DebuggerActiveHint/0.0.1280.984@0.0.1280.984" timestamp="1577888371023" />
+    <state width="1200" height="263" key="GridCell.Tab.0.bottom" timestamp="1583919328929">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1583919328929" />
+    <state width="1200" height="263" key="GridCell.Tab.0.center" timestamp="1583919328929">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1583919328929" />
+    <state width="1200" height="263" key="GridCell.Tab.0.left" timestamp="1583919328929">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1583919328929" />
+    <state width="1200" height="263" key="GridCell.Tab.0.right" timestamp="1583919328929">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1583919328929" />
+    <state width="1237" height="324" key="GridCell.Tab.1.bottom" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.1.center" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.1.left" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.1.right" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.2.bottom" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.2.bottom/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.2.center" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.2.center/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.2.left" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.2.left/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.2.right" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.2.right/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.3.bottom" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.3.bottom/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.3.center" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.3.center/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.3.left" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.3.left/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.3.right" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.3.right/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.4.bottom" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.4.bottom/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.4.center" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.4.center/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.4.left" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.4.left/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state width="1237" height="324" key="GridCell.Tab.4.right" timestamp="1577903317474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="324" key="GridCell.Tab.4.right/0.0.1280.984@0.0.1280.984" timestamp="1577903317474" />
+    <state x="177" y="197" key="RiderGenerateDialog" timestamp="1583452510003">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="177" y="197" key="RiderGenerateDialog/0.0.1280.984@0.0.1280.984" timestamp="1583452510003" />
+    <state x="141" y="133" key="SettingsEditor" timestamp="1583450190474">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="141" y="133" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1583450190474" />
+    <state x="312" y="345" key="SignInWindow" timestamp="1578056756707">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="312" y="345" key="SignInWindow/0.0.1280.984@0.0.1280.984" timestamp="1578056756707" />
+    <state x="381" y="232" key="SubscriptionsDialog" timestamp="1578654442430">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="381" y="232" key="SubscriptionsDialog/0.0.1280.984@0.0.1280.984" timestamp="1578654442430" />
+    <state x="318" y="97" width="737" height="789" key="find.popup" timestamp="1577746775809">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="318" y="97" width="737" height="789" key="find.popup/0.0.1280.984@0.0.1280.984" timestamp="1577746775809" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Shared/_ValidationScriptsPartial.cshtml</url>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Shared/_ValidationScriptsPartial.cshtml" initialLine="0" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>74</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="59">
+            <startOffsets>
+              <option value="2162" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2248" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>66</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="48">
+            <startOffsets>
+              <option value="1961" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1980" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>70</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="52">
+            <startOffsets>
+              <option value="2042" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2058" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>72</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="54">
+            <startOffsets>
+              <option value="2085" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2100" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>73</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="55">
+            <startOffsets>
+              <option value="2113" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2149" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>44</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="36">
+            <startOffsets>
+              <option value="1217" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1231" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="26">
+            <startOffsets>
+              <option value="861" />
+            </startOffsets>
+            <endOffsets>
+              <option value="896" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>54</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="51">
+            <startOffsets>
+              <option value="1445" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1466" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>55</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="52">
+            <startOffsets>
+              <option value="1479" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1497" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>57</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="54">
+            <startOffsets>
+              <option value="1528" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1605" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>58</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="55">
+            <startOffsets>
+              <option value="1622" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1682" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>59</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="56">
+            <startOffsets>
+              <option value="1699" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1756" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>60</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="57">
+            <startOffsets>
+              <option value="1773" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1828" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>61</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="58">
+            <startOffsets>
+              <option value="1845" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1878" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>64</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="60">
+            <startOffsets>
+              <option value="1914" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1930" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs</url>
+          <line>30</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Edit.cshtml.cs" initialLine="29">
+            <startOffsets>
+              <option value="810" />
+            </startOffsets>
+            <endOffsets>
+              <option value="830" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs" initialLine="30">
+            <startOffsets>
+              <option value="867" />
+            </startOffsets>
+            <endOffsets>
+              <option value="907" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs</url>
+          <line>35</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs" initialLine="31">
+            <startOffsets>
+              <option value="920" />
+            </startOffsets>
+            <endOffsets>
+              <option value="935" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs</url>
+          <line>39</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs" initialLine="35">
+            <startOffsets>
+              <option value="1000" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1036" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs</url>
+          <line>42</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs" initialLine="38">
+            <startOffsets>
+              <option value="1064" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1120" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs</url>
+          <line>43</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs" initialLine="39">
+            <startOffsets>
+              <option value="1133" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1196" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Menu/Delete.cshtml.cs" initialLine="26">
+            <startOffsets>
+              <option value="767" />
+            </startOffsets>
+            <endOffsets>
+              <option value="781" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Edit.cshtml</url>
+          <line>9</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/Edit.cshtml" initialLine="9" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs" initialLine="39">
+            <startOffsets>
+              <option value="1508" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1523" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs</url>
+          <line>52</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs" initialLine="47">
+            <startOffsets>
+              <option value="1990" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2018" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs" initialLine="34">
+            <startOffsets>
+              <option value="865" />
+            </startOffsets>
+            <endOffsets>
+              <option value="977" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs</url>
+          <line>45</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs" initialLine="43">
+            <startOffsets>
+              <option value="1654" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1689" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs</url>
+          <line>54</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs" initialLine="52">
+            <startOffsets>
+              <option value="2142" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2177" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Identity/Controllers/AccountController.cs</url>
+          <line>268</line>
+          <properties documentPath="$PROJECT_DIR$/Identity/Controllers/AccountController.cs" initialLine="255">
+            <startOffsets>
+              <option value="8361" />
+            </startOffsets>
+            <endOffsets>
+              <option value="8404" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Identity/Controllers/AccountController.cs</url>
+          <line>39</line>
+          <properties documentPath="$PROJECT_DIR$/Identity/Controllers/AccountController.cs" initialLine="33">
+            <startOffsets>
+              <option value="1269" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1312" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/List.cshtml.cs</url>
+          <line>45</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/List.cshtml.cs" initialLine="46">
+            <startOffsets>
+              <option value="1433" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1475" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood.Data/OdeToFoodDbContext.cs</url>
+          <line>58</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood.Data/OdeToFoodDbContext.cs" initialLine="48">
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Pages/Restaurants/List.cshtml.cs</url>
+          <line>48</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Pages/Restaurants/List.cshtml.cs" initialLine="49">
+            <startOffsets>
+              <option value="1593" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1607" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs</url>
+          <line>40</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs" initialLine="40">
+            <startOffsets>
+              <option value="1388" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1492" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs</url>
+          <line>37</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs" initialLine="37">
+            <startOffsets>
+              <option value="1051" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1173" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs</url>
+          <line>35</line>
+          <properties documentPath="$PROJECT_DIR$/OdeToFood/Api/RestaurantsController.cs" initialLine="35">
+            <startOffsets>
+              <option value="989" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1022" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

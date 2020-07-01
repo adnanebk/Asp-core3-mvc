@@ -1,0 +1,80 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\OdeToFood-master\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+    "projectName": "OdeToFood.Data",
+    "projectPath": "D:\\OdeToFood-master\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+    "outputPath": "D:\\OdeToFood-master\\OdeToFood\\OdeToFood.Data\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "D:\\OdeToFood-master\\OdeToFood\\Identity\\Identity.csproj": {
+            "projectPath": "D:\\OdeToFood-master\\OdeToFood\\Identity\\Identity.csproj"
+          },
+          "D:\\OdeToFood-master\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
+            "projectPath": "D:\\OdeToFood-master\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "OdeToCode.UseNodeModules": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

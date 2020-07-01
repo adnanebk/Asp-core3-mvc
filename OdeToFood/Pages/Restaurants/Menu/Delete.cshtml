@@ -1,0 +1,18 @@
+﻿@page "{menuLineId}"
+@model OdeToFood.Pages.Restaurants.Menu.DeleteModel
+
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+<h2>Delete!</h2>
+<div class="alert alert-danger">
+    Are you sure you want to delete @Model.MenuLine.ProductName?
+</div>
+<form method="post">
+    <button type="submit" class="btn btn-danger">Yes!</button>
+    <input hidden="" asp-for="RestaurantId" />
+    <a asp-page="/Restaurants/Detail" asp-route-restaurantId="@Model.MenuLine.RestaurantId" class="btn btn-outline-primary">Cancel</a>
+</form>

@@ -1,0 +1,51 @@
+﻿@using OdeToFood.Core
+@model Restaurant
+
+
+
+
+
+<div class="card" style="background-color: lightsteelblue">
+    <div class="content">
+        @if (User.Identity.IsAuthenticated)
+        {
+             <span class="right floated ui" >(@Model.Rates.Count)</span><div id="rate" class="right floated ui star rating rate-me" data-rating="@Math.Ceiling(@Model.Rates.Average(r=>r.RestoRating))"></div>
+        }
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <span class="right floated ui" >(@Model.Rates.Count)</span> <a asp-action="Login" asp-controller="Account"><div id="rate" class="right floated ui star rating rate-me" data-rating="@Math.Ceiling(@Model.Rates.Average(r=>r.RestoRating))"></div></a> 
+
+        }
+        <span hidden="hidden">@Model.Id</span>
+        <div class="header">
+            <h3>@Model.Name</h3>
+        </div>
+
+        <div class="meta">
+            <span>Location: @Model.Location</span>
+        </div>
+        <div class="description">
+            @Model.Description
+        </div>
+    </div>
+    <div class="extra content" style="background-color: lightslategray">
+        <div class="ui three buttons">
+            <a class="btn btn-lg"
+               asp-page="./Detail"
+               asp-route-restaurantId="@Model.Id">
+                <i class="fa fa-search-plus"></i>
+            </a>
+            <a class="btn btn-lg"
+               asp-page="./Edit"
+               asp-route-restaurantId="@Model.Id">
+                <i class="fa fa-edit"></i>
+            </a>
+            <a class="btn btn-lg"
+               asp-page="./Delete"
+               asp-route-restaurantId="@Model.Id">
+                <i class="fa fa-trash"></i>
+            </a>
+        </div>
+    </div>
+</div>
+

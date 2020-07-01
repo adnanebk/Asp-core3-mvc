@@ -1,0 +1,57 @@
+﻿@page
+@model OdeToFood.Pages.Restaurants.ClientRestaurantsModel
+@{
+    ViewData["Title"] = "ClientRestaurants";
+}
+
+<h2>Client Restaurants</h2>
+
+<table class="table table-striped table-bordered" id="restaurants">
+    <thead>
+    <th>Name</th>
+    <th>Location</th>
+    <th>Description</th>
+    <th>Cuisine type</th>
+    </thead>
+</table>
+
+@section Scripts {
+
+    @*<script src="~/node_modules/datatables.net/js/jquery.dataTables.js"></script>
+        <script src="~/node_modules/datatables.net-bs/js/dataTables.bootstrap.js"></script>
+    <link href="~/node_modules/datatables.net-bs/css/dataTables.bootstrap.css" rel="stylesheet" />
+*@
+      <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"  type="text/css" />  
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+
+    
+        <script>
+
+            $(function () {
+
+                var cuisines = ["None", "Mexican", "Italian", "Chinese","Japanese","Indian", "Moroccan"];
+
+                $.ajax("/api/restaurants/",
+                    { method: "get" })
+                    .then(function (response) {
+                        $("#restaurants").dataTable({
+                            data: response,
+                            columns: [
+                                { "data": "name" },
+                                { "data": "location" },               
+                                { "data": "description" },               
+                                {
+                                    "data": "cuisine", "render": function (data) {                                      
+                                        return cuisines[data];
+                                    }
+                                }
+                            ]
+                        });
+                    });
+            });
+
+
+        </script>
+}
+

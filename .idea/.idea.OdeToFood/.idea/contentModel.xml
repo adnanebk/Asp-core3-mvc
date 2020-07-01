@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Adnan\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Adnan\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_OdeToFood.-1180886501.00" t="ExcludeRecursive" />
+    <e p="E:\OdeToFood-master\OdeToFood" t="IncludeFlat">
+      <e p="Identity" t="IncludeRecursive">
+        <e p="Identity.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="OdeToFood" t="IncludeRecursive">
+        <e p="node_modules\@fortawesome\fontawesome-free" t="IncludeRecursive" />
+        <e p="node_modules\bootstrap" t="IncludeRecursive" />
+        <e p="node_modules\datatables.net-bs" t="IncludeRecursive" />
+        <e p="node_modules\jquery" t="IncludeRecursive" />
+        <e p="node_modules\jquery-validation" t="IncludeRecursive" />
+        <e p="node_modules\jquery-validation-unobtrusive" t="IncludeRecursive" />
+        <e p="OdeToFood.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="OdeToFood.Core" t="IncludeRecursive">
+        <e p="OdeToFood.Core.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="OdeToFood.Data" t="IncludeRecursive">
+        <e p="OdeToFood.Data.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="OdeToFood.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

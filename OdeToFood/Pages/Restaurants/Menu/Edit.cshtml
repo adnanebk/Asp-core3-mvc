@@ -1,0 +1,75 @@
+﻿@page "{menuId:int?}"
+@using OdeToFood.Core
+@using OdeToFood.Data
+@inject IData<Restaurant> Restaurants
+@model OdeToFood.Pages.Restaurants.Menu.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<div class="container">
+    <div class="ui piled segment" style="background-color: whitesmoke">
+        @if (Model.Menu.ProductName != null)
+        {
+                    <h2>Editing @Model.Menu.ProductName for @Restaurants.GetById(@Model.Menu.RestaurantId).Name Restaurant</h2>
+
+        }
+        else
+        {
+                    <h2>Creating new Menu Item for @Restaurants.GetById(@Model.Menu.RestaurantId).Name Restaurant</h2>
+
+        }
+        
+     <div class="alert alert-danger" asp-validation-summary="ModelOnly"></div>
+
+        <form enctype="multipart/form-data" method="post">
+
+            <input type="hidden" asp-for="Menu.Id"/>
+
+            <input type="hidden" asp-for="Menu.RestaurantId"/>
+
+            <input type="hidden" asp-for="Menu.Photo" id="currentPhoto"/>
+            <div class="form-group">
+                <label asp-for="Menu.ProductName"></label>
+                <input asp-for="Menu.ProductName" class="form-control"/>
+                <span class="text-danger" asp-validation-for="Menu.ProductName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Menu.Description"></label>
+                <textarea asp-for="Menu.Description" class="form-control">@Model.Menu.Description</textarea>
+                <span class="text-danger" asp-validation-for="Menu.Description"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Menu.Price"></label>
+                <input  type="number" asp-for="Menu.Price" class="form-control"/>
+                <span class="text-danger" asp-validation-for="Menu.Price"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="photo-input">Photo</label>
+                <div class="custom-file overflow-hidden rounded-pill mb-5">
+                    <input id="photo-input" name="photo" type="file" class="form-control custom-file-input rounded-pill">
+                    <label  for="customFile" class="custom-file-label rounded-pill">Choose file</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-lg btn-primary">Save</button>
+            <a asp-page="/Restaurants/Detail" asp-route-restaurantId="@Model.Menu.RestaurantId" class="btn btn-lg btn-primary">Cancel</a>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $('.custom-file-label').addClass("selected").html($("#currentPhoto").val());
+       // document.getElementById("photo-input").files[0].setAttribute("name",$("#currentPhoto").val());
+  $('.custom-file-input').on('change',function(){
+    var fileName = document.getElementById("photo-input").files[0].name;
+    $(this).next('.custom-file-label').addClass("selected").html(fileName);
+  })
+
+    </script>
+    
+  
+}

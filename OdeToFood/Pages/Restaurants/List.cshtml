@@ -1,0 +1,93 @@
+﻿@page
+@model ListModel
+@{
+    ViewData["Title"] = "Restaurants";
+}
+
+<h1>All restaurants</h1>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <div style="display: contents" class="ui icon input">
+                <input  type="text" asp-for="SearchTerm" placeholder="Search by restaurant name...">
+                <i class="inverted circular search link icon"></i>
+            </div>
+        </div>
+    </div>
+   
+</form>
+<a asp-page="./Edit" class="btn btn-lg btn-primary mb-2">Add New</a>
+
+
+
+<div class="ui cards">
+@foreach(var restaurant in Model.Restaurants)
+{
+    <partial name="_Summary" model="restaurant" />
+}
+</div>
+<div class="ui basic modal">
+
+  <div class="content">
+    <p>We have sent an http request to save your rating !</p>
+  </div>
+  <div class="actions">
+  
+    <div class="ui green ok inverted button">
+      <i class="checkmark icon"></i>
+      Ok
+    </div>
+  </div>
+</div>
+
+@section footer {
+    <div>@Model.Message</div>
+}
+@section Scripts {
+    <script>
+ $(".rating").rating({ maxRating: 5});
+
+/* function onRating(el) {
+     
+     setTimeout(function(){
+        var r=$(this).getElementById("rate").getElementsByClassName("active").length;
+        alert(r);
+     }, 1000);
+
+   
+ }*/
+ 
+$( document ).ready(function() {
+    
+    var ratingEl = document.getElementsByClassName("rate-me");
+  
+ 
+    for (var i = 0; i < ratingEl.length; i++) {
+        ratingEl[i].addEventListener('click', onRating);
+    }
+    
+ function onRating() {
+   var rating=this.getElementsByClassName("active").length;
+   
+/*$.post('/api/Restaurants/'+this.nextElementSibling.textContent+'/rating',   // url
+       { rating: rating.toString() }, // data to be submit
+       function(response) {// success callback
+        },"json");*/
+        
+        $.ajax({
+                    type: "POST",
+                    dataType: 'json',
+                    url: '/api/Restaurants/'+this.nextElementSibling.textContent+'/rating',
+                    contentType:"application/json",
+                    data:JSON.stringify(rating),
+                    error: function(){ $('.ui.basic.modal').modal('show')    },
+                    success:function(){ $('.ui.basic.modal').modal('show')   }
+                  });
+                  
+        
+        
+ } });
+</script>
+ 
+}

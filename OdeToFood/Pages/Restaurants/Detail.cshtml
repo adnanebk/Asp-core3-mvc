@@ -1,0 +1,76 @@
+﻿@page "{restaurantId:int}"
+
+@model OdeToFood.Pages.Restaurants.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+<div class="ui clearing segment" style="background-color: whitesmoke;text-align: center">
+<h2 class="ui header">
+  <h2>@Model.Restaurant.Name</h2>
+  <div class="sub header">Location: @Model.Restaurant.Location</div>
+  <div class="sub header">Cuisine: @Model.Restaurant.Cuisine</div>
+</h2></div>
+
+@if(Model.Message != null)
+{
+    <div class="alert alert-info">@Model.Message</div>
+}
+
+<div class="ui piled segment" style="background-color: whitesmoke">
+      <a   asp-page="./menu/Edit"
+           asp-route-restaurantId="@Model.Restaurant.Id">
+    <div class="ui top attached button">
+          
+                                     
+                <i class="add icon"></i>                                   
+          
+      
+          Add to the menu
+        </div>      </a>
+    <h2 style="color: darkblue" class="ui header">Memu</h2>
+
+    <br/>
+    <div class="ui two cards">
+        @foreach (var menu in Model.Restaurant.MenuLines)
+        {
+            if (menu.Photo != null)
+            {
+                <div style="background-color: beige; width: auto; height: min-content;max-width: 400px" class="ui card">
+                    <div class="image">
+                        <img style="height:auto; height: 250px;max-width: 400px" src="@menu.Photo">
+                    </div>
+                    <div class="content">
+                        <a class="header">@menu.ProductName</a>
+                        <div class="meta">
+                            <span class="date">@menu.Price $</span>
+                        </div>
+                        <div class="description">
+                            @menu.Description
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <div class="ui three buttons">
+
+                            <a class="btn btn-lg"
+                               asp-page="./menu/Edit"
+                               asp-route-menuId="@menu.Id"
+                               asp-route-restaurantId="@menu.Restaurant.Id">
+                                <i class="fa fa-edit"></i>
+                            </a>
+                            <a class="btn btn-lg"
+                               asp-page="./menu/Delete"
+                               asp-route-menuLineId="@menu.Id">
+                                <i class="fa fa-trash"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        }
+    </div>
+</div>
+<br/>
+<br/>
+<a asp-page="./List" class="btn btn-outline-primary">All Restaurants</a>
+
